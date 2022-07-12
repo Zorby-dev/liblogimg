@@ -23,11 +23,6 @@
       "owner": "roboticsbrno",
       "name": "Logic_library",
       "version": "https://github.com/RoboticsBrno/Logic_library/archive/refs/heads/main.zip"
-    },
-    {
-      "owner": "Lode Vandevenne",
-      "name": "lodepng",
-      "version": "https://github.com/lvandeve/lodepng/archive/refs/heads/master.zip"
     }
   ],
   "build": {
