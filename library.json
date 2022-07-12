@@ -1,0 +1,37 @@
+{
+  "name": "liblogimg",
+  "keywords": "img, esp32",
+  "description": "An extension to Logic_library for loading images.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zorby-dev/liblogimg"
+  },
+  "authors": [
+    {
+      "name": "Zorby",
+      "email": "zorby.exe@gmail.com",
+      "url": "https://github.com/Zorby-dev",
+      "maintainer": true
+    }
+  ],
+  "version": "0.1.0",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": "espressif32",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "owner": "roboticsbrno",
+      "name": "Logic_library",
+      "version": "https://github.com/RoboticsBrno/Logic_library/archive/refs/heads/main.zip"
+    },
+    {
+      "owner": "Lode Vandevenne",
+      "name": "lodepng",
+      "version": "https://github.com/lvandeve/lodepng/archive/refs/heads/master.zip"
+    }
+  ],
+  "build": {
+    "flags": "-std=gnu++17",
+    "unflags": "-std=gnu++11"
+  }
+}
