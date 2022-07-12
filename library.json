@@ -1,7 +1,7 @@
 {
   "name": "liblogimg",
   "keywords": "img, esp32",
-  "description": "An extension to Logic_library for loading images.",
+  "description": "An extension to Logic_library for loading and drawing image files.",
   "repository": {
     "type": "git",
     "url": "https://github.com/Zorby-dev/liblogimg"
