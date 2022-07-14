@@ -59,7 +59,7 @@ void drawImage(unsigned int x, unsigned int y, Image &image) {
 
     for (int o = x; o < width; o++) {
         for (int i = y; i < height; i++) {
-            display.at(x + o, y + i) = image.at(o, i);
+            display.setColor(x + o, y + i, image.at(o, i));
         }
     }
 }
